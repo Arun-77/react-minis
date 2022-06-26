@@ -1,0 +1,89 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: color 0.35s ease-in-out;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+input {
+  padding: 4px 6px;
+  outline: none;
+  caret-color: orange;
+}
+
+#toggle {
+  width: 50px;
+  height: 26px;
+  display: flex;
+  padding: 3.29px;
+  background-color: #cccdcf;
+  display: block;
+  border-radius: 1000px;
+  cursor: pointer;
+  box-shadow: 0px 5px 20px -10px #393ce4;
+  transition: background-color 0.35s ease-in-out;
+}
+
+#toggle .toggle-inner {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(103, 173, 111);
+  border-radius: 1000px;
+  transition: margin-left 0.2s ease-in, background-color 0.2s ease-in-out;
+}
+
+#toggle .toggle-active {
+  background-color: rgb(235, 245, 235);
+  margin-left: 23px;
+}
+
+#container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+main {
+  background-color: #f7fafc;
+  min-height: 100vh;
+  width: 100%;
+  padding: 20px;
+  transition: background-color 0.35s ease-in;
+}
+
+.dark-mode .notes-title {
+  color: #fff;
+}
+
+.dark-mode main {
+  background-color: #1a202c;
+}
+
+.dark-mode #toggle {
+  background-color: rgb(27, 184, 22);
+}
+
+#toggle .toggle-inner {
+  background-color: #fff;
+}
+
+.home {
+  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+  min-height: 100vh;
+}

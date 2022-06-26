@@ -1,0 +1,35 @@
+.note {
+   background-color: #fef68a;
+   border-radius: 8px;
+   width: 19rem;
+   min-height: 15rem;
+   margin: 0.8rem;
+}
+
+.card-footer {
+   background-color: #fef68a;
+}
+
+
+@media screen and (max-width: 400px) {
+   .note {
+      width: 300px;
+   }
+}
+
+@media screen and (max-width: 310px) {
+   .note {
+      width: 260px;
+   }
+}
+
+.encloser {
+   margin: 0 0 8px;
+}
+
+.btn-fav {
+   border: none;
+   outline: none;
+   background-color: transparent;
+   position: relative;
+}

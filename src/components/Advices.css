@@ -1,0 +1,8 @@
+.card {
+   box-shadow: 0 0 11px -2px rgba(0, 0, 0, 0.5);
+}
+
+.all-advices {
+   height: 100vh;
+   background-image: radial-gradient(circle, #d4cf29, #dab910, #dea300, #df8c00, #dd750c, #db6713, #d85a19, #d54b1f, #d44321, #d23b23, #d13225, #cf2727);
+}
